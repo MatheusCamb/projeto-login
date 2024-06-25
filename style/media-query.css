@@ -29,6 +29,16 @@ Telas Grandes: acima de 1201px
     #formulario > p {
         font-size: 1em;
     }
+    
+    form > input[type=submit] {
+        float: right;
+        width: 70%;
+    }
+
+    form > a.botao {
+        float: right;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -54,4 +64,13 @@ Telas Grandes: acima de 1201px
     #formulario > p {
         font-size: 1.2em;
     }
+
+    form > input[type=submit] {
+        width: 49%;
+    }
+
+    form > a.botao {
+        width: 49%;
+    }
+
 }
