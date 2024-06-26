@@ -27,11 +27,7 @@ Telas Grandes: acima de 1201px
         width: 70%;
     }
 
-    #formulario > p {
-        font-size: 1em;
-    }
-    
-    form > input[type=submit] {
+   /* form > input[type=submit] {
         float: right;
         width: 70%;
     }
@@ -39,8 +35,8 @@ Telas Grandes: acima de 1201px
     form > a.botao {
         float: right;
         width: 70%;
-    }
-
+    }*/
+/*
     form > .campo {
         background-color: #5f2c82;
         display: block;
@@ -50,7 +46,7 @@ Telas Grandes: acima de 1201px
         margin: 5px 0px;
         margin-bottom: 50px;
         border: 2px solid #5f2c82;
-    }
+    }*/
 }
 
 @media screen and (min-width: 992px) {
@@ -70,20 +66,21 @@ Telas Grandes: acima de 1201px
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
     } 
     
     #formulario > p {
         font-size: 1em;
+        margin: 20px 0px;
     }
 
-    form > input[type=submit] {
+    /*form > input[type=submit] {
         width: 49%;
     }
 
     form > a.botao {
         width: 49%;
-    }
+    }*/
 
 }
